@@ -1,0 +1,142 @@
+/* Import fonts */
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Pacifico&family=Poppins:wght@500;600&display=swap');
+
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #F3F4F6; /* Light Silver */
+  font-family: 'Inter', sans-serif;
+  color: #1A202C; /* Midnight Blue */
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.container {
+  background-color: #fff;
+  max-width: 400px;
+  width: 100%;
+  padding: 32px;
+  border-radius: 12px;
+  box-shadow: 0 6px 20px rgba(26, 32, 44, 0.12);
+  text-align: center;
+}
+
+.header .logo {
+  font-family: 'Pacifico', cursive;
+  font-size: 3rem;
+  color: #3B82F6; /* Electric Blue */
+  margin-bottom: 8px;
+  user-select: none;
+}
+
+.header .tagline {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  color: #6B7280; /* Gray-500 */
+  margin-bottom: 32px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.input {
+  padding: 12px 14px;
+  font-size: 1rem;
+  border-radius: 10px;
+  border: 1.5px solid #C7D2FE; /* Soft Lavender */
+  font-family: 'Inter', sans-serif;
+  color: #1A202C;
+  transition: border-color 0.3s ease;
+}
+
+.input:focus {
+  outline: none;
+  border-color: #3B82F6; /* Electric Blue */
+  box-shadow: 0 0 6px rgba(59, 130, 246, 0.4);
+}
+
+.signup-button {
+  background-color: #3B82F6; /* Electric Blue */
+  color: white;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  font-size: 1.125rem;
+  padding: 14px;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  user-select: none;
+}
+
+.signup-button:hover {
+  background-color: #2563EB; /* Darker blue */
+}
+
+.error-text {
+  color: #F87171; /* Bright Coral */
+  font-family: 'Inter', sans-serif;
+  font-weight: 600;
+  font-size: 0.9rem;
+  margin-top: -8px;
+  margin-bottom: 8px;
+  user-select: none;
+}
+
+.alternative {
+  margin-top: 24px;
+  color: #6B7280; /* Gray-500 */
+  font-family: 'Inter', sans-serif;
+  font-weight: 500;
+  font-size: 0.9rem;
+}
+
+.google-button {
+  background-color: #DB4437; /* Google Red */
+  color: white;
+  border: none;
+  padding: 10px 16px;
+  border-radius: 10px;
+  cursor: pointer;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  font-size: 0.9rem;
+  margin-left: 8px;
+  transition: background-color 0.3s ease;
+  user-select: none;
+}
+
+.google-button:hover {
+  background-color: #a33227;
+}
+
+.login-text {
+  margin-top: 28px;
+  font-family: 'Inter', sans-serif;
+  font-weight: 500;
+  font-size: 0.9rem;
+  color: #6B7280; /* Gray-500 */
+}
+
+.login-link {
+  color: #3B82F6; /* Electric Blue */
+  text-decoration: none;
+  font-weight: 600;
+  cursor: pointer;
+  user-select: none;
+}
+
+.login-link:hover {
+  text-decoration: underline;
+}
